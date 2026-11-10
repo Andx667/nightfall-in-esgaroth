@@ -1,0 +1,52 @@
+% Inhalt beider Fassungen (nachtfall.tex: Blattfassung, nachtfall-buch.tex: Buchfassung).
+% Die Dateien in build/ erzeugt das Build-Skript.
+\fwtitle{Nachtfall in Esgaroth}{Ein Abenteuer für The One Ring, 2nd Edition\fwsubsep Esgaroth und der Lange See, Herbst TA 2966}
+
+\input{build/body.tex}
+
+% ---- Rechtehinweis am Ende des Textes
+\fwnotice
+
+% ---- Gegenstandskarten (eine Seite, 2 × 3)
+\fwcardpage{%
+\fwcardrow
+  {\fwcard{Der Abendstein}{Erbstück \textperiodcentered{} Zwergenarbeit aus Erebor}{}%
+    {Ein geschliffener Kristall, kaum größer als eine Faust. Er sammelt bei Tag das Licht und gibt es in der Dämmerung zurück, bleich und ruhig wie der erste Stern.}%
+    {\textbf{Licht:} Leuchtet von der Dämmerung bis Mitternacht wie eine helle Laterne.\par
+     \textbf{Im Nest:} Wer ihn hochhält, hält die Brut fern, solange sein Licht nicht zur Hälfte getrunken ist.}}
+  {\fwcard{Die leere Fassung}{Silber \textperiodcentered{} aus Hornboris Hand genommen}{}%
+    {Vier silberne Krallen um einen leeren Platz. Hornbori ließ sie nicht los, als er starb.}%
+    {\textbf{Beweis:} Wer sie vorzeigt, zeigt ohne Worte, was gestohlen wurde.\par
+     Einmal \textit{favoured} bei einem \textit{Courtesy}- oder \textit{Persuade}-Wurf in Esgaroth.}}
+\fwcardrow
+  {\fwcard{Hornboris Siegelring}{Zeichen des Gesandten \textperiodcentered{} Gold}{}%
+    {Ein schwerer Ring mit Dáins Zeichen und Hornboris Rune. Wer ihn trägt, spricht für Erebor.}%
+    {\textbf{Pfand:} Im \textit{Council} beim Meister gesetzt, ein Argument für \textit{Courtesy}.\par
+     Wer ihn hergibt, muss Skirfir erklären, wo er ist.}}
+  {\fwcard{Bündel Nachtgespinst}{Rest aus dem Korb \textperiodcentered{} schwarz und kalt}{}%
+    {Ein faustgroßes Knäuel, das sich anfühlt wie nasser Rauch.}%
+    {\textbf{Aufreißen:} Erstickt alle Flammen in einem Raum, auf einem Kai oder einem Boot für wenige Minuten.\par
+     Einmal verwendbar.}}
+\fwcardrow
+  {\fwcard{Signys Schuh}{Kinderschuh \textperiodcentered{} in schwarzes Gespinst gewickelt}{}%
+    {Gefunden unter einem gemachten Kinderbett in der Gasse der Netzflicker.}%
+    {\textbf{Beweis:} Zeigt, dass der Dieb erpresst wurde.\par
+     Zählt als Argument vor Meister Ottar und vor Skirfir.}}
+  {\fwcard{Der Zunftknoten}{Geteerte Schnur \textperiodcentered{} vom Korb in der Halle}{}%
+    {Ein Netzknoten, so fest gezogen, dass er eher reißt als aufgeht. Jeder Netzflicker knotet ein wenig anders.}%
+    {\textbf{Spur:} Wer ihn in der Gasse der Netzflicker zeigt, bekommt einen Namen.}}
+}
+
+% ---- Karten für den Loremaster (nummeriert, quer)
+\fwlmmap[Karten für den Loremaster]{lm-esgaroth}{Karte: Esgaroth}%
+  {Loremaster-Version · Nummern wie in Teil 3}{assets/maps/map-esgaroth-de.jpg}{Esgaroth}
+\fwlmmap{lm-nest}{Karte: Das Nest}%
+  {Loremaster-Version · Nummern wie im Höhepunkt}{assets/maps/map-nest-de.jpg}{Das Nest}
+\label{fw-lastnum}
+
+% ---- Handouts für die Spieler (ohne Seitenzahl)
+\input{build/letters.tex}
+\fwhandoutoath{h-eid}{Die Eidkarte}
+\fwhandoutletter{h-skirfir}{Skirfirs Antwort}{skirfir}{Skirfir}
+\fwhandoutmap{h-esgaroth}{assets/maps/map-esgaroth-players-de.jpg}{Karte von Esgaroth}
+\fwhandoutmap{h-see}{assets/maps/map-see-players-de.jpg}{Karte: Der Lange See}

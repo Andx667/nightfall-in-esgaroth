@@ -1,0 +1,17 @@
+% Nachtfall – Buchfassung: Buchblock zum Binden. Wird von tools/build.py aufgerufen
+% (LuaLaTeX, Arbeitsverzeichnis = Projektwurzel).
+% Doppelseitig mit Bundsteg innen, Titelblatt, alle Seiten A4 hoch (Querseiten gedreht),
+% Seitenzahl durch 4 teilbar. Einzelseiten in Lesereihenfolge, nicht ausgeschossen.
+\documentclass[10pt,twoside]{article}
+\usepackage[buch]{nachtfall}
+\input{build/version.tex}
+
+\begin{document}
+
+\fwbooktitle{Nachtfall in Esgaroth}{Ein Abenteuer für The One Ring, 2nd Edition · Esgaroth und der Lange See, Herbst TA 2966}{assets/cover-de.jpg}
+
+\input{latex/inhalt.tex}
+
+\fwfillsheets
+
+\end{document}

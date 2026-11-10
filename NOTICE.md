@@ -1,0 +1,36 @@
+# Hinweis
+
+**„Nachtfall in Esgaroth“ ist ein inoffizielles Fanwerk.** Es ist nicht verbunden mit Middle-earth Enterprises, der
+Tolkien Estate, Sophisticated Games oder Free League Publishing und wird von ihnen weder unterstützt noch
+gebilligt.
+
+## Was anderen gehört
+
+- *The One Ring*, *Middle-earth*, *The Lord of the Rings*, *The Hobbit* und die Namen der Figuren, Gegenstände,
+  Ereignisse und Orte darin sind Marken oder eingetragene Marken der Middle-earth Enterprises, LLC. Die Werke
+  von J.R.R. Tolkien sind urheberrechtlich geschützt (Tolkien Estate).
+- *The One Ring™ Roleplaying Game* erscheint bei Free League Publishing (Fria Ligan AB) unter Lizenz von
+  Sophisticated Games Ltd. Die Regelbegriffe (Namen von Eigenschaften, Fertigkeiten, Gegenstandsarten und
+  dergleichen) gehören den Verlagen.
+
+- Die Handlung ist frei inspiriert vom Lied „Nightfall“ der Band Blind Guardian (Album *Nightfall in
+  Middle-Earth*, 1998). Übernommen sind nur Grundzüge, kein Liedtext; die Rechte liegen bei der Band und
+  ihrem Verlag.
+
+Diese Namen und Begriffe werden hier ohne Lizenz für ein nicht kommerzielles Fanprojekt verwendet. Es wird kein
+Anspruch auf diese Rechte erhoben, und nichts in diesem Repository räumt eine Lizenz daran ein. Das Abenteuer
+darf nicht verkauft werden. Zum Spielen sind die Regelwerke nötig.
+
+## Entstehung mit KI
+
+Dieses Abenteuer wurde mit Hilfe eines KI-Sprachmodells (Claude von Anthropic) geschrieben. Text, Bilder,
+Handouts, Layout und Code sind im Gespräch mit dem Modell entstanden; Idee, Vorgaben und Auswahl stammen vom
+Autor. Der Hinweis steht auch im PDF, am Ende des Textes.
+
+## Was die MIT-Lizenz abdeckt
+
+Die [MIT-Lizenz](LICENSE) gilt für das, was vom Autor stammt: den Code (`tools/`, `filters/`, `latex/`, den
+Workflow), das Layout, die Karten und den eigenen Text des Abenteuers. Sie gilt nicht für die oben
+genannten Namen und Inhalte.
+
+Wer Rechte an etwas hier hält und eine Änderung oder Entfernung wünscht, eröffnet bitte ein Issue.
